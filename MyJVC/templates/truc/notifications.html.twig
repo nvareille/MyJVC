@@ -11,5 +11,9 @@
     <img src="{{ image }}" />
 {% endfor %}
 
+{% for article in articles %}
+    <li>{{ article['nom'] }}</li>
+{% endfor %}
+
 {# On appelle la feuille CSS #}
 <link href="css/test.css" rel="stylesheet">
